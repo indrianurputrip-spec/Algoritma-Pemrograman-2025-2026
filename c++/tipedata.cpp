@@ -1,5 +1,8 @@
-#include
-main()
+#include <iostream> 
+#include <conio.h>
+#include <iostream>
+
+int main()
 {
     char a[30] = "---BELAJAR TIPE DATA---";
     short b;
@@ -9,27 +12,28 @@ main()
     double f;
     int g = 1;
     int h = 2;
-    
-    b = 10000;
-    c = 1000000;
+
+    b = 1000;
+    c = 100000;
     d = 1000000000;
     e = 3.12;
-    f = 3.12345;
-    
-    cout << a << endl;
-    cout << "tipe data short: " << b << endl;
-    cout << "tipe data int: " << c << endl;
-    cout << "tipe data long: " << d << endl;
-    cout << "tipe data float: " << e << endl;
-    cout << "tipe data double: " << f << endl;
-    cout << endl;
+    f = 3.1234;
 
-    cout << "berikut hasil boolean : " << endl;
-    cout << (g > h); // akan menghasilkan nilai 0 (false), karena 1 lebih kecil dari 2
+   count << A << endl;
+   cout << "Tipe data short : " << b << endl;
+   cout << "Tipe data int : " << c << endl;
+   cout << "Tipe data long : " << d << endl; 
+   cout << "Tipe data float : " << e << endl;
+   cout << "Tipe data double : " << f << endl;
+   cout << endl;
+
+    cout << "berikut hasil boolen : " << std::endl;
+    cout << (g > h); // akan menghasilkan nilai 0 (false), karena 1 tidak lebih besar dari 2
     cout << endl;
-    cout << (g < h); // akan menghasilkan nilai 1 (true), karena 1 lebih kecil dari 2 
+    cout << (g < h); // akan menghasilkan nilai 1 (true), karena 1 lebih kecil dari 2
     cout << endl;
     cout << (g == h); // akan menghasilkan nilai 0 (false), karena 1 tidak sama dengan 2
     cout << endl;
     cout << (g != h); // akan menghasilkan nilai 1 (true), karena 1 tidak sama dengan 2
-    }
+    
+}
