@@ -5,13 +5,13 @@ using namespace std;
 
 main()
 {
-     short a;
-     int b;
-     long c;
-     float d;
-     double e;
-     char data_karakter = 'A';
-     char materi1[9] ="variabel";
+    short a;
+    int b;
+    long c;
+    float d;
+    double e;
+    char data_karakter = 'A';
+    char materi1[9] = "variabel";
 
     a = 10000;
     b = 1000000;
@@ -20,13 +20,13 @@ main()
     e = 3.12345;
 
     cout << "---BELAJAR VARIABEL---" << endl;
-    cout << "variabel a : " << a << endl;
-    cout << "variabel b : " << b << endl;
-    cout << "variabel c : " << c << endl;
-    cout << "variabel d : " << d << endl;
-    cout << "variabel e : " << e << endl;
+    cout << "Variabel a : " << a << endl;
+    cout << "Variabel b : " << b << endl;
+    cout << "Variabel c : " << c << endl;
+    cout << "Variabel d : " << d << endl;
+    cout << "Variabel e : " << e << endl;
     cout << "variabel data_karakter : " << data_karakter << endl;
-    cout << "variabel materi1 : " << materi1 << endl;
+    cout << "Variabel materi1 : " << materi1 << endl;
     cout << endl;
 }
-
+    
